@@ -10,12 +10,18 @@
 			"defaultPalette": false,
 			"duotone": [
 				{
-					"colors": ["#111111", "#ffffff"],
+					"colors": ["#444444", "#ffffff"],
 					"slug": "duotone-1",
 					"name": "Black and white"
 				}
 			],
-			"gradients": [],
+			"gradients": [
+				{
+					"slug": "gradient",
+					"gradient": "linear-gradient(to bottom, #f9fafb 0%, #eb7102 100%)",
+					"name": "Vertical soft rust to white"
+				}
+			],
 			"palette": [
 				{
 					"color": "#ffffff",
