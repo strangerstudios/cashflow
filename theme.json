@@ -107,6 +107,7 @@
 			}
 		},
 		"shadow":{
+			"defaultPresets": true
 		},
 		"spacing": {
 			"blockGap": "1.2rem"
