@@ -9,7 +9,7 @@
  * @since Cashflow 1.0
  */
 
- if ( ! function_exists( 'twentytwentyfour_block_styles' ) ) :
+ if ( ! function_exists( 'cashflow_block_styles' ) ) :
 	function cashflow_block_styles() {
 		register_block_style(
 			'core/column',

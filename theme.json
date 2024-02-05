@@ -140,30 +140,15 @@
 			],
 			"fontSizes": [
 				{
-					"fluid": {
-						"min": "0.813rem",
-						"max": "0.875rem"
-					},
-					"name": "Extra Small",
-					"size": "0.875rem",
-					"slug": "x-small"
-				},
-				{
-					"fluid": {
-						"min": "0.938rem",
-						"max": "1rem"
-					},
+					"fluid": false,
 					"name": "Small",
-					"size": "1rem",
+					"size": "0.9rem",
 					"slug": "small"
 				},
 				{
-					"fluid": {
-						"min": "1.063rem",
-						"max": "1.125rem"
-					},
+					"fluid": false,
 					"name": "Medium",
-					"size": "1.125rem",
+					"size": "1.05rem",
 					"slug": "medium"
 				},
 				{
@@ -177,57 +162,21 @@
 				},
 				{
 					"fluid": {
-						"min": "1.85rem",
-						"max": "2.5rem"
-					},
-					"name": "Extra Large",
-					"size": "2.5rem",
-					"slug": "x-large"
-				},
-				{
-					"fluid": {
-						"min": "1.688rem",
-						"max": "1.875rem"
-					},
-					"name": "Extra Extra Large",
-					"size": "1.875rem",
-					"slug": "xx-large"
-				},
-				{
-					"fluid": {
-						"min": "1.875rem",
-						"max": "2.25rem"
-					},
-					"name": "Extra Extra Extra Large",
-					"size": "2.25rem",
-					"slug": "xxx-large"
-				},
-				{
-					"fluid": {
 						"min": "2.25rem",
 						"max": "2.625rem"
 					},
-					"name": "Extra Extra Extra Extra Large",
+					"name": "Extra Large",
 					"size": "2.625rem",
-					"slug": "xxxx-large"
-				},
-				{
-					"fluid": {
-						"min": "2.625rem",
-						"max": "3.375rem"
-					},
-					"name": "Extra Extra Extra Extra Extra Large",
-					"size": "3.375rem",
-					"slug": "xxxxx-large"
+					"slug": "xx-large"
 				},
 				{
 					"fluid": {
 						"min": "3.188rem",
 						"max": "4.5rem"
 					},
-					"name": "Extra Extra Extra Extra Extra Extra Large",
+					"name": "Extra Extra Large",
 					"size": "4.5rem",
-					"slug": "xxxxxx-large"
+					"slug": "xxx-large"
 				}
 			],
 			"writingMode": true
@@ -255,7 +204,7 @@
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x=large)"
+					"fontSize": "var(--wp--preset--font-size--x-large)"
 				}
 			},
 			"h4": {
@@ -277,9 +226,6 @@
 				":hover": {
 					"color": {
 						"text": "var(--wp--preset--color--accent)"
-					},
-					"typography": {
-						"textDecoration": "underline"
 					}
 				},
 				"color": {
