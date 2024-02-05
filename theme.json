@@ -45,7 +45,11 @@
 		"spacing": {
 			"blockGap": "1.2rem"
 		},
-		"typography": {}
+		"typography": {
+			"fontStyle": "normal",
+			"fontWeight": 400,
+			"lineHeight": 1.7
+		}
 	},
 	"templateParts": [
 		{
