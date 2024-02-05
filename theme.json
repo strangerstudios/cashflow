@@ -8,7 +8,13 @@
 			"defaultDuotone": false,
 			"defaultGradients": false,
 			"defaultPalette": false,
-			"duotone": [],
+			"duotone": [
+				{
+					"colors": ["#111111", "#ffffff"],
+					"slug": "duotone-1",
+					"name": "Black and white"
+				}
+			],
 			"gradients": [],
 			"palette": [
 				{
@@ -79,8 +85,23 @@
 			"text": "var(--wp--preset--color--contrast-3)"
 		},
 		"css": "",
-		"elements": {},
-		"shadow":{},
+		"elements": {
+			"link": {
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--accent)"
+					},
+					"typography": {
+						"textDecoration": "underline"
+					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--accent-2)"
+				}
+			}
+		},
+		"shadow":{
+		},
 		"spacing": {
 			"blockGap": "1.2rem"
 		},
