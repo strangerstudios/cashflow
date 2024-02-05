@@ -74,12 +74,162 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-					"name": "System Font",
-					"slug": "system-font"
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "PT Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/pt-sans/pt-sans.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "PT Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/pt-sans/pt-sans-bold.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"PT Sans\", sans-serif",
+					"name": "PT Sans",
+					"slug": "body"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "PT Serif",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/pt-serif/pt-serif.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "PT Serif",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/pt-serif/pt-serif-bold.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"PT Serif\", serif",
+					"name": "PT Serif",
+					"slug": "heading"
+				},
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+					"name": "System Sans-serif",
+					"slug": "system-sans-serif"
+				},
+				{
+					"fontFamily": "Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+					"name": "System Serif",
+					"slug": "system-Serif"
 				}
 			],
-			"fontSizes": [],
+			"fontSizes": [
+				{
+					"fluid": {
+						"min": "0.813rem",
+						"max": "0.875rem"
+					},
+					"name": "Extra Small",
+					"size": "0.875rem",
+					"slug": "x-small"
+				},
+				{
+					"fluid": {
+						"min": "0.938rem",
+						"max": "1rem"
+					},
+					"name": "Small",
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"min": "1.063rem",
+						"max": "1.125rem"
+					},
+					"name": "Medium",
+					"size": "1.125rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"min": "1.25rem",
+						"max": "1.375rem"
+					},
+					"name": "Large",
+					"size": "1.375rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"min": "1.85rem",
+						"max": "2.5rem"
+					},
+					"name": "Extra Large",
+					"size": "2.5rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"min": "1.688rem",
+						"max": "1.875rem"
+					},
+					"name": "Extra Extra Large",
+					"size": "1.875rem",
+					"slug": "xx-large"
+				},
+				{
+					"fluid": {
+						"min": "1.875rem",
+						"max": "2.25rem"
+					},
+					"name": "Extra Extra Extra Large",
+					"size": "2.25rem",
+					"slug": "xxx-large"
+				},
+				{
+					"fluid": {
+						"min": "2.25rem",
+						"max": "2.625rem"
+					},
+					"name": "Extra Extra Extra Extra Large",
+					"size": "2.625rem",
+					"slug": "xxxx-large"
+				},
+				{
+					"fluid": {
+						"min": "2.625rem",
+						"max": "3.375rem"
+					},
+					"name": "Extra Extra Extra Extra Extra Large",
+					"size": "3.375rem",
+					"slug": "xxxxx-large"
+				},
+				{
+					"fluid": {
+						"min": "3.188rem",
+						"max": "4.5rem"
+					},
+					"name": "Extra Extra Extra Extra Extra Extra Large",
+					"size": "4.5rem",
+					"slug": "xxxxxx-large"
+				}
+			],
 			"writingMode": true
 		},
 		"useRootPaddingAwareAlignments": true
