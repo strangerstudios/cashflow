@@ -10,7 +10,43 @@
 			"defaultPalette": false,
 			"duotone": [],
 			"gradients": [],
-			"palette": []
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#f9fafb",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#444444",
+					"name": "Contrast / Two",
+					"slug": "contrast-2"
+				},
+				{
+					"color": "#011935",
+					"name": "Contrast / Three",
+					"slug": "contrast-3"
+				},
+				{
+					"color": "#eb7102",
+					"name": "Accent",
+					"slug": "accent"
+				},
+				{
+					"color": "#3c385a",
+					"name": "Accent / Two",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#00a590",
+					"name": "Accent / Three",
+					"slug": "accent-3"
+				}
+			]
 		},
 		"layout": {
 			"contentSize": "805px",
@@ -38,7 +74,10 @@
 	},
 	"styles": {
 		"blocks": {},
-		"color": {},
+		"color": {			
+			"background": "var(--wp--preset--color--base)",
+			"text": "var(--wp--preset--color--contrast-3)"
+		},
 		"css": "",
 		"elements": {},
 		"shadow":{},
@@ -47,8 +86,8 @@
 		},
 		"typography": {
 			"fontStyle": "normal",
-			"fontWeight": 400,
-			"lineHeight": 1.7
+			"fontWeight": "400",
+			"lineHeight": "1.7"
 		}
 	},
 	"templateParts": [
