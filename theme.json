@@ -59,6 +59,15 @@
 			"contentSize": "805px",
 			"wideSize": "1230px"
 		},
+		"shadow": {
+			"presets": [
+				{
+					"name": "Lift",
+					"slug": "lift",
+					"shadow": "2px 6px 12px rgba( 0, 0, 0, 0.08 )"
+				}
+			]
+		},
 		"spacing": {
 			"spacingScale": {
 				"steps": 7

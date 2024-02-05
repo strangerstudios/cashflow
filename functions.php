@@ -14,31 +14,29 @@
 		register_block_style(
 			'core/column',
 			array(
-				'name'         => 'card-border',
-				'label'        => __( 'Card border', 'cashflow' ),
+				'name'         => 'card-lift',
+				'label'        => __( 'Card lift', 'cashflow' ),
 				'inline_style' => '
-				    .is-style-card-border {
-                        border: 1px solid var(--wp--preset--color--contrast); 
-                        border-radius: var(--wp--preset--spacing--5);
-				    	box-shadow: var( --wp--preset--shadow--natural );
-                        padding: var(--wp--preset--spacing--10);
-				    }
-                ',
+				    .is-style-card-lift {
+						border-radius: var(--wp--preset--spacing--20);
+						box-shadow: var(--wp--preset--shadow--lift);
+						overflow: hidden;
+					}
+				',
 			)
 		);
 		register_block_style(
 			'core/group',
 			array(
-				'name'         => 'card-border',
-				'label'        => __( 'Card border', 'cashflow' ),
+				'name'         => 'card-lift',
+				'label'        => __( 'Card lift', 'cashflow' ),
 				'inline_style' => '
-				    .is-style-card-border {
-                        border: 1px solid var(--wp--preset--color--contrast); 
-                        border-radius: var(--wp--preset--spacing--5);
-				    	box-shadow: var( --wp--preset--shadow--natural );
-                        padding: var(--wp--preset--spacing--20);
-				    }
-                ',
+				    .is-style-card-lift {
+						border-radius: var(--wp--preset--spacing--20);
+						box-shadow: var(--wp--preset--shadow--lift);
+						overflow: hidden;
+					}
+				',
 			)
 		);
 	}
