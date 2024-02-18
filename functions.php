@@ -131,11 +131,9 @@
 					}
 					.wp-block-separator.is-style-separator-slash:before {
 						color: currentColor;
-						content: "///";
+						content: "/ / /";
 						font-family: serif;
 						font-size: var(--wp--preset--font-size--large);
-						letter-spacing: 1em;
-						padding-left: 1em;
 					}
 				',
 			)
