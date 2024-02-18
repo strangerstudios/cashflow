@@ -207,6 +207,11 @@
 					"fontSize": "var(--wp--preset--font-size--x-large)",
 					"fontWeight": "700"
 				}
+			},
+			"core/navigation": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--heading)"
+				}
 			}
 		},
 		"color": {			
@@ -288,11 +293,13 @@
 	"templateParts": [
 		{
 			"area": "header",
-			"name": "header"
+			"name": "header",
+			"title": "Header"
 		},
 		{
 			"area": "footer",
-			"name": "footer"
+			"name": "footer",
+			"title": "Footer"
 		}
 	],
 	"customTemplates": []
