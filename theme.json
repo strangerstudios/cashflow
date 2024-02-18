@@ -189,6 +189,29 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/quote": {
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontStyle": "normal"
+						}
+					}
+				},
+				"spacing": {
+					"margin": {
+						"top": "0",
+						"right": "0",
+						"bottom": "0",
+						"left": "0"
+					},
+					"padding": {
+						"top": "0",
+						"right": "0",
+						"bottom": "0",
+						"left": "0"
+					}
+				}
+			},
 			"core/site-title": {
 				"elements": {
 					"link": {
@@ -302,5 +325,26 @@
 			"title": "Footer"
 		}
 	],
-	"customTemplates": []
+	"customTemplates": [
+		{
+			"name": "page-blank",
+			"postTypes": ["page"],
+			"title": "Page: Blank"
+		},
+		{
+			"name": "page-no-title",
+			"postTypes": ["page"],
+			"title": "Page: No Title"
+		},
+		{
+			"name": "page-wide",
+			"postTypes": ["page"],
+			"title": "Page: Wide"
+		},
+		{
+			"name": "page-with-sidebar",
+			"postTypes": ["page"],
+			"title": "Page: With Sidebar"
+		}
+	]
 }
