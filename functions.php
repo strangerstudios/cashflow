@@ -96,7 +96,7 @@
 				'name'         => 'image-organic-alt',
 				'label'        => __( 'Organic (alt)', 'cashflow' ),
 				'inline_style' => '
-					.is-style-image-organic {
+					.is-style-image-organic-alt {
 						border-radius: 12% 88% 14% 86% / 87% 24% 76% 13%;
 						overflow: hidden;
 					}
