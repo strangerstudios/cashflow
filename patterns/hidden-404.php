@@ -5,6 +5,10 @@
  * Inserter: no
  */
 ?>
+<!-- wp:spacer -->
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group">
 
@@ -12,7 +16,7 @@
 	<h1 class="wp-block-heading alignwide"><?php echo esc_html_x( '404: Not Found', 'Error code for a webpage that is not found.', 'cashflow' ); ?></h1>
 	<!-- /wp:heading -->
 
-	<!-- wp:separator {"style":{"layout":{"selfStretch":"fixed","flexSize":"160px"}},"backgroundColor":"accent-2","className":"is-style-separator-wave"} -->
+	<!-- wp:separator {"backgroundColor":"accent-2","className":"is-style-separator-wave"} -->
 	<hr class="wp-block-separator has-text-color has-accent-2-color has-accent-2-background-color has-background is-style-separator-wave"/>
 	<!-- /wp:separator -->
 
@@ -24,3 +28,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:search {"width":100,"widthUnit":"%","showLabel":false,"buttonText":"<?php esc_attr_e( 'Search', 'cashflow' ); ?>"} /-->
+
+<!-- wp:spacer -->
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
