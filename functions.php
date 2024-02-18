@@ -93,6 +93,19 @@
 		register_block_style(
 			'core/image',
 			array(
+				'name'         => 'image-organic-alt',
+				'label'        => __( 'Organic (alt)', 'cashflow' ),
+				'inline_style' => '
+					.is-style-image-organic {
+						border-radius: 12% 88% 14% 86% / 87% 24% 76% 13%;
+						overflow: hidden;
+					}
+				',
+			)
+		);
+		register_block_style(
+			'core/image',
+			array(
 				'name'         => 'image-slash',
 				'label'        => __( 'Slash', 'cashflow' ),
 				'inline_style' => '
