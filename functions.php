@@ -141,7 +141,7 @@
 							radial-gradient(23.3px at 50% -16.5px,#0000 calc(99% - 2px),#000 calc(101% - 2px) 99%,#0000 101%) 50% calc(50% + 8.5px)/60px 17px repeat-x;
 						-webkit-mask: var(--mask);
 						mask: var(--mask);
-						max-width: 240px;
+						max-width: 200px;
 						width: 32%;
 					}
 				',
@@ -150,3 +150,26 @@
 	}
 endif;
 add_action( 'init', 'cashflow_block_styles' );
+
+/**
+ * Fallback to the Cashflow icon if not set.
+ *
+ * @since TBD
+ *
+ * @param string $block_content The block content.
+ * @return string
+ */
+function cashflow_site_logo( string $block_content ) : string {
+
+	// Return early if site logo is set.
+	if ( ! empty( $block_content ) ) {
+		return $block_content;
+	}
+
+	// Use the Cashflow logo as the fallback.
+	$block_content = '<img src="' . esc_url( get_template_directory_uri() . '/assets/images/cashflow-icon.png' ) . '"' . ' alt="' . esc_attr( get_bloginfo( 'name' ) ) . '" class="wp-block-site-logo__image" width="70" style="border-radius: 100%;" />';
+
+	// Return the block content.
+	return $block_content;
+}
+add_filter( 'render_block_core/site-logo', 'cashflow_site_logo' );
