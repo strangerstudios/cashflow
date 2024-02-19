@@ -27,7 +27,7 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"50%","backgroundColor":"base","className":"is-style-default"} -->
 <div class="wp-block-column is-vertically-aligned-center is-style-default has-base-background-color has-background" style="flex-basis:50%">
-<?php if ( WP_Block_Type_Registry::get_instance()->is_registered( 'pmpro-advanced-levels/advanced-levels-page' ) ) : ?>
+<?php if ( defined( 'PMPRO_ADVANCED_LEVELS_DIR' ) ) : ?>
 	<!-- wp:pmpro-advanced-levels/advanced-levels-page {"back_link":false,"checkout_button":"Join Pinnacle Now","expiration":false,"levels":"3"} /-->
 <?php endif ?>
 </div>
