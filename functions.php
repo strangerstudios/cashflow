@@ -182,7 +182,7 @@ add_action( 'init', 'cashflow_block_styles' );
 	}
 endif;
 
-add_action( 'init', 'cashdlow_block_stylesheets' );*/
+add_action( 'init', 'cashflow_block_stylesheets' );*/
 
 /**
  * Fallback to the Cashflow icon if not set.
