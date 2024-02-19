@@ -162,6 +162,28 @@
 endif;
 add_action( 'init', 'cashflow_block_styles' );
 
+
+/**
+ * Enqueue block stylesheets.
+ */
+/******** Adding this in 'if' needed to load per block 
+ if ( ! function_exists( 'cashflow_block_stylesheets' ) ) :
+
+	function cashflow_block_stylesheets() {
+		wp_enqueue_block_style(
+			'core/button',
+			array(
+				'handle' => 'cashflow-button-style-outline',
+				'src'    => get_parent_theme_file_uri( 'assets/css/block-styles.css' ),
+				'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
+				'path'   => get_parent_theme_file_path( 'assets/css/block-styles.css' ),
+			)
+		);
+	}
+endif;
+
+add_action( 'init', 'cashdlow_block_stylesheets' );*/
+
 /**
  * Fallback to the Cashflow icon if not set.
  *
