@@ -14,4 +14,11 @@ Text Domain: cashflow
 Tags: full-site-editing, 
 */
 
-/* Put custom styles here for ease */
+input:where( :not( [type=checkbox] ):not( [type=radio ] ) ),
+select,
+textarea {
+	color: var( --wp--custom--form-input--color, inherit );
+	background: var( --wp--custom--form-input--background, transparent );
+	border: 1px solid var( --wp--custom--form-input--border-color, currentColor );
+    border-radius: var( --wp--custom--form-input--border-radius);
+}

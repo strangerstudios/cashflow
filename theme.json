@@ -44,6 +44,16 @@
 					"slug": "contrast-2"
 				},
 				{
+					"color": "#eeeeee",
+					"name": "Contrast / Three",
+					"slug": "contrast-3"
+				},
+				{
+					"color": "#aaaaaa",
+					"name": "Contrast / Four",
+					"slug": "contrast-4"
+				},
+				{
 					"color": "#034748",
 					"name": "Accent",
 					"slug": "accent"
@@ -56,9 +66,19 @@
 			]
 		},
 		"custom": {
-			"textShadow-lift": "2px 6px 12px rgba( 0, 0, 0, 0.08 )",
-			"radius-default": "4px",
-			"radius-circle": "50%"
+			"borderRadius": {
+				"default": "4px",
+				"circle": "50%"
+			},
+			"formInput": {
+				"color": "var(--wp--preset--color--contrast)",
+				"background": "var(--wp--preset--color--base)",
+				"borderColor": "var(--wp--preset--color--contrast-3)",
+				"borderRadius": "var(--wp--custom--border-radius-default)"
+			},
+			"textShadow": {
+				"lift": "2px 6px 12px rgba( 0, 0, 0, 0.08 )"
+			}
 		},
 		"layout": {
 			"contentSize": "805px",
@@ -69,7 +89,7 @@
 				{
 					"name": "Lift",
 					"slug": "lift",
-					"shadow": "var(--wp--custom-textShadow-lift)"
+					"shadow": "var(--wp--custom-textShadow--lift)"
 				}
 			]
 		},
@@ -196,7 +216,7 @@
 		"blocks": {
 			"core/avatar": {
 				"border": {
-					"radius": "var(--wp--custom--radius-circle)"
+					"radius": "var(--wp--custom--border-radius--circle)"
 				}
 			},
 			"core/button": {},
@@ -244,7 +264,7 @@
 			},
 			"core/pullquote": {
 				"border": {
-					"radius": "var(--wp--custom--radius-default)"
+					"radius": "var(--wp--custom--border-radius--default)"
 				}
 			},
 			"core/post-author": {},
