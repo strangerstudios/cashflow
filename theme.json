@@ -55,6 +55,8 @@
 				}
 			]
 		},
+		"custom": {
+		},
 		"layout": {
 			"contentSize": "805px",
 			"wideSize": "1230px"
@@ -303,7 +305,11 @@
 			"defaultPresets": true
 		},
 		"spacing": {
-			"blockGap": "1.4rem"
+			"blockGap": "1.4rem",
+			"padding": {
+				"left": "var(--wp--preset--spacing--50)",
+				"right": "var(--wp--preset--spacing--50)"
+			}
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--body)",
