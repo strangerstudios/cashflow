@@ -82,7 +82,7 @@
 				"borderColor": "var(--wp--preset--color--contrast-3)",
 				"borderRadius": "var(--wp--preset--border-radius)"
 			},
-			"textShadow": {
+			"shadow": {
 				"lift": "2px 6px 12px rgba( 0, 0, 0, 0.08 )"
 			}
 		},
@@ -95,7 +95,7 @@
 				{
 					"name": "Lift",
 					"slug": "lift",
-					"shadow": "var(--wp--custom-textShadow--lift)"
+					"shadow": "var(--wp--custom-shadow--lift)"
 				}
 			]
 		},
