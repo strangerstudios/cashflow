@@ -2,6 +2,7 @@
 /**
  * Title: Text with CTA
  * Slug: cashflow/text-with-cta
+ * Categories: banner, call-to-action, cashflow-all, text
  */
 ?>
 

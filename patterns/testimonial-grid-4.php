@@ -2,6 +2,7 @@
 /**
  * Title: Testimonial Grid 4
  * Slug: cashflow/testimonial-grid-4
+ * Categories: banner, cashflow-all, cashflow-testimonial, text
  */
 ?>
 

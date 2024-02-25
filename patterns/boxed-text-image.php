@@ -2,6 +2,7 @@
 /**
  * Title: Boxed text with image
  * Slug: cashflow/boxed-text-image
+ * Categories: banner, cashflow-all, text
  */
 ?>
 

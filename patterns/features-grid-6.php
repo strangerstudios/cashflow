@@ -2,6 +2,7 @@
 /**
  * Title: Features Grid 6
  * Slug: cashflow/features-grid-6
+ * Categories: banner, cashflow-all, text
  */
 ?>
 

@@ -2,6 +2,7 @@
 /**
  * Title: Hero
  * Slug: cashflow/hero
+ * Categories: banner, call-to-action, cashflow-all
  */
 ?>
 

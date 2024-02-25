@@ -2,6 +2,7 @@
 /**
  * Title: Team Grid 4
  * Slug: cashflow/team-grid-4
+ * Categories: cashflow-all, text
  */
 ?>
 

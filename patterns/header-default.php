@@ -2,6 +2,8 @@
 /**
  * Title: Default Header
  * Slug: cashflow/header
+ * Categories: header
+ * Block Types: core/template-part/header
  * Inserter: no
  */
 ?>

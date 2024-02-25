@@ -2,7 +2,7 @@
 /**
  * Title: Text with Image
  * Slug: cashflow/text-with-image
- * Keywords: starter
+ * Categories: banner, cashflow-all, text
  */
 ?>
 

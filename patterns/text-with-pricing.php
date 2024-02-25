@@ -2,6 +2,7 @@
 /**
  * Title: Text with pricing
  * Slug: cashflow/text-with-pricing
+ * Categories: banner, call-to-action, cashflow-all, text
  */
 ?>
 

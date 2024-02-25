@@ -2,6 +2,7 @@
 /**
  * Title: Testimonial with CTA
  * Slug: cashflow/testimonial-with-cta
+ * Categories: banner, cashflow-all, cashflow-testimonial, text
  */
 ?>
 

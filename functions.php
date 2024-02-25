@@ -166,6 +166,29 @@ endif;
 add_action( 'init', 'cashflow_block_styles' );
 
 /**
+ * Register block pattern categories.
+ */
+function cashflow_register_pattern_categories() {
+
+	register_block_pattern_category(
+		'cashflow-all',
+		array(
+			'label'       => __( 'Cashflow', 'cashflow' ),
+			'description' => __( 'A collection of patterns for Cashflow.', 'cashflow' ),
+		)
+	);
+
+	register_block_pattern_category(
+		'cashflow-testimonial',
+		array(
+			'label'       => __( 'Testimonials', 'cashflow' ),
+			'description' => __( 'A collection of testimonial patterns for Cashflow.', 'cashflow' ),
+		)
+	);
+}
+add_action( 'init', 'cashflow_register_pattern_categories' );
+
+/**
  * Compatibility.
  */
 require_once get_parent_theme_file_path( 'inc/compatibility/paid-memberships-pro.php' );

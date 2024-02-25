@@ -2,6 +2,8 @@
 /**
  * Title: Default Footer
  * Slug: cashflow/footer
+ * Categories: footer
+ * Block Types: core/template-part/footer
  * Inserter: no
  */
 ?>
