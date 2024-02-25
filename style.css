@@ -20,5 +20,7 @@ textarea {
 	color: var( --wp--custom--form-input--color, inherit );
 	background: var( --wp--custom--form-input--background, transparent );
 	border: 1px solid var( --wp--custom--form-input--border-color, currentColor );
-    border-radius: var(--wp--preset--border-radius);
+	border-radius: var(--wp--custom--border-radius--default);
+	font-size: var(--wp--preset--font-size--medium);
+	padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--30);
 }

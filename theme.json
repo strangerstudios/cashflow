@@ -50,7 +50,7 @@
 					"slug": "contrast-2"
 				},
 				{
-					"color": "#eeeeee",
+					"color": "#dcdcdc",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
 				},
@@ -73,8 +73,26 @@
 		},
 		"custom": {
 			"borderRadius": {
-				"default": "4px",
+				"default": "6px",
 				"circle": "50%"
+			},
+			"contextualMessage": {
+				"default": {
+					"backgroundColor": "#EBF5FF",
+					"color": "#1E429F"
+				},
+				"success": {
+					"backgroundColor": "#F3FAF7",
+					"color": "#03543F"
+				},
+				"alert": {
+					"backgroundColor": "#FDFDEA",
+					"color": "#723B13"
+				},
+				"error": {
+					"backgroundColor": "#FDF2F2",
+					"color": "#9B1C1C"
+				}
 			},
 			"formInput": {
 				"color": "var(--wp--preset--color--contrast)",
@@ -101,7 +119,9 @@
 		},
 		"spacing": {
 			"spacingScale": {
-				"steps": 7
+				"steps": 7,
+				"mediumStep": 3,
+				"unit": "rem"
 			},
 			"units": [ "%", "px", "em", "rem", "vh", "vw" ]
 		},
@@ -346,12 +366,6 @@
 					"fontWeight": "700"
 				}
 			}
-		},
-		"border": {
-			"radius": "var(--wp--custom--border-radius--default)",
-			"color": "var(--wp--preset--color--contrast-3)",
-			"style": "solid",
-			"width": "1px"
 		},
 		"color": {			
 			"background": "var(--wp--preset--color--base-2)",
