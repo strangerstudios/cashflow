@@ -68,6 +68,11 @@
 					"color": "#008473",
 					"name": "Accent / Two",
 					"slug": "accent-2"
+				},
+				{
+					"color": "#ffcc00",
+					"name": "Accent / Three",
+					"slug": "accent-3"
 				}
 			]
 		},
