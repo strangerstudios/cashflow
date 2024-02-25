@@ -1,0 +1,121 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.4/theme.json",
+	"version": 2,
+	"patterns": [],
+	"title": "Hedge",
+	"description": "Inverted palette with dark background and shades of green",
+	"settings": {
+		"color": {
+			"duotone": [
+				{
+					"colors": ["#222222", "#ffffff"],
+					"slug": "greyscale",
+					"name": "Black and white"
+				},
+				{
+					"name": "Sepia",
+					"slug": "sepia",
+					"colors": [ "#55210c", "#edd3a8" ]
+				},
+				{
+					"name": "Accent and Base 2",
+					"slug": "duotone-1",
+					"colors": [ "#034748", "#f5f8fa" ]
+				},
+				{
+					"name": "Accent 2 and Base 2",
+					"slug": "duotone-2",
+					"colors": [ "#008473", "#f5f8fa" ]
+				},
+				{
+					"name": "Accent 3 and Base",
+					"slug": "duotone-3",
+					"colors": [ "#27292b", "#ffcc00" ]
+				},
+				{
+					"name": "Accent and Accent 3",
+					"slug": "duotone-4",
+					"colors": [ "#034748", "#ffcc00" ]
+				}
+			],
+			"gradients": [
+				{
+					"slug": "gradient-1",
+					"gradient": "linear-gradient(145deg, #27292b 0%, #4b4b4c 100%)",
+					"name": "Almost black to dark grey"
+				},
+				{
+					"slug": "gradient-2",
+					"gradient": "linear-gradient(145deg, #034748 0%, #008473 100%)",
+					"name": "Dark green to medium grass green"
+				},
+				{
+					"slug": "gradient-3",
+					"gradient": "linear-gradient(145deg, #c1d3e1 0%, #ffffff 100%)",
+					"name": "Soft blue-grey to white"
+				}
+			],
+			"palette": [
+				{
+					"color": "#27292b",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#1e1e1e",
+					"name": "Base / Two",
+					"slug": "base-2"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#f5f8fa",
+					"name": "Contrast / Two",
+					"slug": "contrast-2"
+				},
+				{
+					"color": "#4b4b4c",
+					"name": "Contrast / Three",
+					"slug": "contrast-3"
+				},
+				{
+					"color": "#aaaaaa",
+					"name": "Contrast / Four",
+					"slug": "contrast-4"
+				},
+				{
+					"color": "#034748",
+					"name": "Accent",
+					"slug": "accent"
+				},
+				{
+					"color": "#008473",
+					"name": "Accent / Two",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#ffcc00",
+					"name": "Accent / Three",
+					"slug": "accent-3"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"link": {
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--accent-3)"
+					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--contrast-2)"
+				}
+			}
+		}
+	}
+}

@@ -17,15 +17,50 @@
 			"duotone": [
 				{
 					"colors": ["#222222", "#ffffff"],
-					"slug": "duotone-1",
+					"slug": "greyscale",
 					"name": "Black and white"
+				},
+				{
+					"name": "Sepia",
+					"slug": "sepia",
+					"colors": [ "#55210c", "#edd3a8" ]
+				},
+				{
+					"name": "Accent and Base 2",
+					"slug": "duotone-1",
+					"colors": [ "#034748", "#f5f8fa" ]
+				},
+				{
+					"name": "Accent 2 and Base 2",
+					"slug": "duotone-2",
+					"colors": [ "#008473", "#f5f8fa" ]
+				},
+				{
+					"name": "Accent 3 and Base",
+					"slug": "duotone-3",
+					"colors": [ "#ffcc00", "#ffffff" ]
+				},
+				{
+					"name": "Accent and Accent 3",
+					"slug": "duotone-4",
+					"colors": [ "#034748", "#ffcc00" ]
 				}
 			],
 			"gradients": [
 				{
-					"slug": "gradient",
-					"gradient": "linear-gradient(to bottom, #f9fafb 0%, #eb7102 100%)",
-					"name": "Vertical soft rust to white"
+					"slug": "gradient-1",
+					"gradient": "linear-gradient(145deg, #011718 0%, #4b4b4c 100%)",
+					"name": "Almost black to dark grey"
+				},
+				{
+					"slug": "gradient-2",
+					"gradient": "linear-gradient(145deg, #034748 0%, #008473 100%)",
+					"name": "Dark green to medium grass green"
+				},
+				{
+					"slug": "gradient-3",
+					"gradient": "linear-gradient(145deg, #e4ecf2 0%, #f5f8fa 100%)",
+					"name": "Soft blue-grey to almost white"
 				}
 			],
 			"palette": [
