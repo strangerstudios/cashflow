@@ -1,0 +1,92 @@
+/**
+ * Paid Memberships Pro Custom Styles
+ */
+
+/**
+ * Forms
+ */
+form.pmpro_form input:where( :not( [type=checkbox] ):not( [type=radio ] ):not( [type=submit ] ):not( [type=button ] ) ),
+form.pmpro_form select,
+form.pmpro_form textarea {
+	color: var( --wp--custom--form-input--color, inherit );
+	background: var( --wp--custom--form-input--background, transparent );
+	border: 1px solid var( --wp--custom--form-input--border-color, currentColor );
+	border-radius: var(--wp--custom--border-radius--default);
+	font-size: var(--wp--preset--font-size--medium);
+	padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--30);
+}
+
+form.pmpro_form input:where( :not( [type=checkbox] ):not( [type=radio ] ):not( [type=submit ] ):not( [type=button ] ) ),
+form.pmpro_form textarea {
+	min-width: 90%;
+}
+
+form.pmpro_form hr {
+	display: none;
+}
+
+form.pmpro_form textarea {
+	width: 90%;
+}
+
+#loginform p,
+form.pmpro_form .pmpro_checkout-fields div,
+form.pmpro_form .pmpro_member_profile_edit-fields > div {
+	margin-bottom: var(--wp--preset--spacing--40);
+}
+
+form.pmpro_form input + p {
+	margin-top: var(--wp--preset--spacing--20);
+}
+
+form.pmpro_form .lite {
+	color: var(--wp--custom--form-input--color, inherit);
+}
+
+form.pmpro_form .pmpro_asterisk abbr {
+	color: var(--wp--custom--contextual-message--error--color);
+}
+
+/**
+ * Messages
+ */
+.pmpro_message {
+	background-color: var(--wp--custom--contextual-message--default--background-color);
+	border-radius: var(--wp--custom--border-radius--default);
+	color: var(--wp--custom--contextual-message--color);
+	font-size: var(--wp--preset--font-size--medium);
+	margin-top: var(--wp--preset--spacing--30);
+	margin-bottom: var(--wp--preset--spacing--30);
+	padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--30);
+}
+
+.pmpro_message a {
+	color: var(--wp--custom--contextual-message--default--color);
+}
+
+.pmpro_success {
+	background-color: var(--wp--custom--contextual-message--success--background-color);
+	color: var(--wp--custom--contextual-message--success--color);
+}
+
+.pmpro_success a {
+	color: var(--wp--custom--contextual-message--success--color);
+}
+
+.pmpro_alert {
+	background-color: var(--wp--custom--contextual-message--alert--background-color);
+	color: var(--wp--custom--contextual-message--alert--color);
+}
+
+.pmpro_alert a {
+	color: var(--wp--custom--contextual-message--alert--color);
+}
+
+.pmpro_error {
+	background-color: var(--wp--custom--contextual-message--error--background-color);
+	color: var(--wp--custom--contextual-message--error--color);
+}
+
+.pmpro_error a {
+	color: var(--wp--custom--contextual-message--error--color);
+}

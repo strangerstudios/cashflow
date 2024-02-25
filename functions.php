@@ -9,7 +9,10 @@
  * @since Cashflow 1.0
  */
 
- if ( ! function_exists( 'cashflow_block_styles' ) ) :
+/**
+ * Add block style variations.
+ */
+if ( ! function_exists( 'cashflow_block_styles' ) ) :
 	function cashflow_block_styles() {
 		register_block_style(
 			'core/cover',
@@ -162,6 +165,10 @@
 endif;
 add_action( 'init', 'cashflow_block_styles' );
 
+/**
+ * Compatibility.
+ */
+require_once get_parent_theme_file_path( 'inc/compatibility/paid-memberships-pro.php' );
 
 /**
  * Enqueue block stylesheets.
