@@ -1,14 +1,14 @@
 <?php
 /**
- * Title: Features Grid 4
- * Slug: cashflow/features-grid-4
+ * Title: Features Grid 6
+ * Slug: cashflow/features-grid-6
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"backgroundColor":"accent-2","className":"is-style-default","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-default has-accent-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--20)"><!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<div class="wp-block-group has-base-color has-text-color has-link-color"><!-- wp:heading {"textAlign":"center","className":"is-style-asterisk"} -->
-<h2 class="wp-block-heading has-text-align-center is-style-asterisk"><?php echo esc_html_x( 'How the Hub Works', 'Feature heading', 'cashflow' ); ?>></h2>
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"backgroundColor":"accent-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-accent-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--20)"><!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group has-base-color has-text-color has-link-color"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center"><?php echo esc_html_x( 'How the Hub Works', 'Feature heading', 'cashflow' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -17,9 +17,9 @@
 <!-- /wp:group -->
 
 <!-- wp:columns {"align":"wide"} -->
-<div class="wp-block-columns alignwide"><!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|70","right":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"base","className":"is-style-card-lift"} -->
-<div class="wp-block-column is-style-card-lift has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70);flex-basis:33.33%"><!-- wp:paragraph {"style":{"typography":{"lineHeight":".8"},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2","fontSize":"x-large"} -->
-<p class=" has-text-colorhas-accent-2-color has-link-color has-x-large-font-size" style="line-height:.8">↝</p>
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"base","className":"is-style-card-lift"} -->
+<div class="wp-block-column is-style-card-lift has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);flex-basis:33.33%"><!-- wp:paragraph {"style":{"typography":{"lineHeight":".8"},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2","fontSize":"x-large"} -->
+<p class="has-accent-2-color has-text-color has-link-color has-x-large-font-size" style="line-height:.8">↝</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"left","level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}}},"textColor":"accent"} -->
@@ -31,8 +31,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|70","right":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"base","className":"is-style-card-lift"} -->
-<div class="wp-block-column is-style-card-lift has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70);flex-basis:33.33%"><!-- wp:paragraph {"style":{"typography":{"lineHeight":".8"},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2","fontSize":"x-large"} -->
+<!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"base","className":"is-style-card-lift"} -->
+<div class="wp-block-column is-style-card-lift has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);flex-basis:33.33%"><!-- wp:paragraph {"style":{"typography":{"lineHeight":".8"},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2","fontSize":"x-large"} -->
 <p class="has-accent-2-color has-text-color has-link-color has-x-large-font-size" style="line-height:.8">↝</p>
 <!-- /wp:paragraph -->
 
@@ -45,8 +45,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|70","right":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"base","className":"is-style-card-lift"} -->
-<div class="wp-block-column is-style-card-lift has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70);flex-basis:33.33%"><!-- wp:paragraph {"style":{"typography":{"lineHeight":".8"},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2","fontSize":"x-large"} -->
+<!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"base","className":"is-style-card-lift"} -->
+<div class="wp-block-column is-style-card-lift has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);flex-basis:33.33%"><!-- wp:paragraph {"style":{"typography":{"lineHeight":".8"},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2","fontSize":"x-large"} -->
 <p class="has-accent-2-color has-text-color has-link-color has-x-large-font-size" style="line-height:.8">↝</p>
 <!-- /wp:paragraph -->
 
@@ -55,14 +55,16 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"left"} -->
-<p class="has-text-align-left"><?php echo esc_html_x( 'Pinnacle Tier Exclusive . Benefit from one-on-one strategy sessions with our founder or top coaches. These personalized meetings are designed to address your unique challenges and goals, offering bespoke guidance and action plans.', 'Feature paragraph grid three', 'cashflow' ); ?></p>
+<p class="has-text-align-left">
+<mark style="background-color:var(--wp--preset--color--accent-3)" class="has-inline-color"><strong><?php echo esc_html_x( 'Pinnacle Tier Exclusive.', 'Feature highlighted text in paragraph grid three', 'cashflow' ); ?></strong></mark>
+<?php echo esc_html_x( 'Benefit from one-on-one strategy sessions with our founder or top coaches. These personalized meetings are designed to address your unique challenges and goals, offering bespoke guidance and action plans.', 'Feature paragraph grid three', 'cashflow' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
 <!-- wp:columns {"align":"wide"} -->
-<div class="wp-block-columns alignwide"><!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|70","right":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"base","className":"is-style-card-lift"} -->
-<div class="wp-block-column is-style-card-lift has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70);flex-basis:33.33%"><!-- wp:paragraph {"style":{"typography":{"lineHeight":".8"},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2","fontSize":"x-large"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"base","className":"is-style-card-lift"} -->
+<div class="wp-block-column is-style-card-lift has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);flex-basis:33.33%"><!-- wp:paragraph {"style":{"typography":{"lineHeight":".8"},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2","fontSize":"x-large"} -->
 <p class="has-accent-2-color has-text-color has-link-color has-x-large-font-size" style="line-height:.8">↝</p>
 <!-- /wp:paragraph -->
 
@@ -75,8 +77,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|70","right":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"base","className":"is-style-card-lift"} -->
-<div class="wp-block-column is-style-card-lift has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70);flex-basis:33.33%"><!-- wp:paragraph {"style":{"typography":{"lineHeight":".8"},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2","fontSize":"x-large"} -->
+<!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"base","className":"is-style-card-lift"} -->
+<div class="wp-block-column is-style-card-lift has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);flex-basis:33.33%"><!-- wp:paragraph {"style":{"typography":{"lineHeight":".8"},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2","fontSize":"x-large"} -->
 <p class="has-accent-2-color has-text-color has-link-color has-x-large-font-size" style="line-height:.8">↝</p>
 <!-- /wp:paragraph -->
 
@@ -89,8 +91,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|70","right":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"base","className":"is-style-card-lift"} -->
-<div class="wp-block-column is-style-card-lift has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70);flex-basis:33.33%"><!-- wp:paragraph {"style":{"typography":{"lineHeight":".8"},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2","fontSize":"x-large"} -->
+<!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"base","className":"is-style-card-lift"} -->
+<div class="wp-block-column is-style-card-lift has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);flex-basis:33.33%"><!-- wp:paragraph {"style":{"typography":{"lineHeight":".8"},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2","fontSize":"x-large"} -->
 <p class="has-accent-2-color has-text-color has-link-color has-x-large-font-size" style="line-height:.8">↝</p>
 <!-- /wp:paragraph -->
 

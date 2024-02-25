@@ -23,13 +23,13 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:cover {"dimRatio":10,"overlayColor":"accent","isDark":false,"className":"is-style-cover-blob","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover is-light is-style-cover-blob"><span aria-hidden="true" class="wp-block-cover__background has-accent-background-color has-background-dim-10 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"40px"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:cover {"overlayColor":"accent","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover is-style-cover-blob"><span aria-hidden="true" class="wp-block-cover__background has-accent-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"40px"} -->
 <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:image {"id":2435,"sizeSlug":"full","linkDestination":"none","className":"is-style-image-organic-alt"} -->
-<figure class="wp-block-image size-full is-style-image-organic-alt"><img src="https://demo.cashflowtheme.com/wp-content/uploads/2024/02/ian-schneider-TamMbr4okv4-unsplash-md.jpg" alt="" class="wp-image-2435"/></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-image-organic-alt"} -->
+<figure class="wp-block-image size-full is-style-image-organic-alt"><img src="<?php echo esc_url( get_template_directory_uri() . '/patterns/images/ian-schneider-TamMbr4okv4-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Looking down to a cement tiled walkway with the words \'Passion Led Us Here\' and two pairs of feet', 'cashflow' ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"40px"} -->

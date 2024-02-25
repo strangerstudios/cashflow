@@ -5,8 +5,8 @@
  */
 ?>
 
-<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--20)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|80"}}}} -->
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--20)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"left"} -->
@@ -28,7 +28,7 @@
 <!-- wp:column {"verticalAlignment":"center","width":"50%","backgroundColor":"base","className":"is-style-default"} -->
 <div class="wp-block-column is-vertically-aligned-center is-style-default has-base-background-color has-background" style="flex-basis:50%">
 <?php if ( defined( 'PMPRO_ADVANCED_LEVELS_DIR' ) ) : ?>
-	<!-- wp:pmpro-advanced-levels/advanced-levels-page {"back_link":false,"checkout_button":"Join Pinnacle Now","expiration":false,"levels":"3"} /-->
+	<!-- wp:pmpro-advanced-levels/advanced-levels-page {"back_link":false,"expiration":false,"levels":"1"} /-->
 <?php endif ?>
 </div>
 <!-- /wp:column --></div>

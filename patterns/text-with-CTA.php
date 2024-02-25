@@ -5,9 +5,9 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|20","right":"var:preset|spacing|20"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--20)"><!-- wp:separator {"style":{"color":{"background":"#01171821"}},"className":"is-style-separator-wave"} -->
-<hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background is-style-separator-wave" style="background-color:#01171821;color:#01171821"/>
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|20","right":"var:preset|spacing|20"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--20)"><!-- wp:separator {"backgroundColor":"contrast-3","className":"is-style-separator-wave"} -->
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-separator-wave"/>
 <!-- /wp:separator -->
 
 <!-- wp:heading {"textAlign":"center"} -->
@@ -15,7 +15,9 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php echo esc_html_x( 'Ready to transform your life?', 'Sample action header centre align', 'cashflow' ); ?><br><strong><mark style="background-color:#ffcc00" class="has-inline-color"><?php echo esc_html_x( 'Start Your Transformation', 'Sample action header color', 'cashflow' ); ?></mark></strong> <?php echo esc_html_x( 'today with our free Ascent membership.', 'Sample action header closing', 'cashflow' ); ?></p>
+<p class="has-text-align-center"><?php echo esc_html_x( 'Ready to transform your life?', 'Sample action header centre align', 'cashflow' ); ?>
+<br>
+<mark style="background-color:var(--wp--preset--color--accent-3)" class="has-inline-color"><strong><?php echo esc_html_x( 'Start Your Transformation', 'Sample action header color', 'cashflow' ); ?></strong></mark> <?php echo esc_html_x( 'today with our free Ascent membership.', 'Sample action header closing', 'cashflow' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
@@ -24,7 +26,7 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:separator {"style":{"color":{"background":"#01171821"}},"className":"is-style-separator-wave"} -->
-<hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background is-style-separator-wave" style="background-color:#01171821;color:#01171821"/>
+<!-- wp:separator {"backgroundColor":"contrast-3","className":"is-style-separator-wave"} -->
+<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-separator-wave"/>
 <!-- /wp:separator --></div>
 <!-- /wp:group -->

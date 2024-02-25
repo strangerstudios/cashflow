@@ -5,16 +5,16 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"border":{"radius":"20px","color":"#01161721","width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"base"} -->
-<div class="wp-block-columns alignwide are-vertically-aligned-center has-border-color has-base-background-color has-background" style="border-color:#01161721;border-width:1px;border-radius:20px;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:cover {"dimRatio":10,"overlayColor":"accent-2","isDark":false,"className":"is-style-cover-blob","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover is-light is-style-cover-blob"><span aria-hidden="true" class="wp-block-cover__background has-accent-2-background-color has-background-dim-10 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"30px"} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"border":{"radius":"20px","width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"borderColor":"contrast-3","backgroundColor":"base"} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-center has-border-color has-contrast-3-border-color has-base-background-color has-background" style="border-width:1px;border-radius:20px;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:cover {"overlayColor":"accent-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover is-style-cover-blob"><span aria-hidden="true" class="wp-block-cover__background has-accent-2-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"30px"} -->
 <div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:image {"id":2434,"sizeSlug":"full","linkDestination":"none","className":"is-style-image-organic"} -->
-<figure class="wp-block-image size-full is-style-image-organic"><img src="https://demo.cashflowtheme.com/wp-content/uploads/2024/02/linkedin-sales-solutions-NpyF7rjqmq4-unsplash-md.jpg" alt="" class="wp-image-2434"/></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-image-organic"} -->
+<figure class="wp-block-image size-full is-style-image-organic"><img src="<?php echo esc_url( get_template_directory_uri() . '/patterns/images/linkedin-sales-solutions-NpyF7rjqmq4-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Woman with long hair, wearing a blazer, and leaning against a wall with in a classroom setting', 'cashflow' ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"30px"} -->
@@ -26,7 +26,7 @@
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:separator {"backgroundColor":"accent-2","className":"is-style-separator-wave"} -->
-<hr class="wp-block-separator has-text-color has-accent-2-color has-alpha-channel-opacity has-accent-2-background-color has-background is-style-separator-wave"/>
+<hr class="wp-block-separator has-text-color has-accent-2-color has-accent-2-background-color has-background is-style-separator-wave"/>
 <!-- /wp:separator -->
 
 <!-- wp:heading -->

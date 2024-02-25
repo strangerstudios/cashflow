@@ -5,8 +5,8 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|20","right":"var:preset|spacing|20"},"blockGap":"var:preset|spacing|60"}},"backgroundColor":"base","className":"is-style-default","layout":{"type":"constrained"},"metadata":{"name":""}} -->
-<div class="wp-block-group alignfull is-style-default has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--20)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|20","right":"var:preset|spacing|20"},"blockGap":"var:preset|spacing|60"}},"backgroundColor":"base","className":"is-style-default","layout":{"type":"constrained"},"metadata":{"name":""}} -->
+<div class="wp-block-group alignfull is-style-default has-base-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--20)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
 <h2 class="wp-block-heading has-text-align-center"><?php echo esc_html_x( 'Meet Our Team', 'Team heading', 'cashflow' ); ?></h2>
 <!-- /wp:heading -->
@@ -23,8 +23,8 @@
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"right":"0","left":"0"},"blockGap":{"top":"var:preset|spacing|70","left":"var:preset|spacing|70"}}}} -->
 <div class="wp-block-columns alignwide" style="padding-right:0;padding-left:0"><!-- wp:column {"layout":{"type":"default"}} -->
-<div class="wp-block-column"><!-- wp:image {"id":2503,"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-style-rounded"><img src="https://demo.cashflowtheme.com/wp-content/uploads/2024/02/constantin-panagopoulos-9lf_erPHYG0-unsplash-md.jpg" alt="" class="wp-image-2503" style="aspect-ratio:1;object-fit:cover"/></figure>
+<div class="wp-block-column"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
+<figure class="wp-block-image size-full is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() . '/patterns/images/constantin-panagopoulos-9lf_erPHYG0-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Photo of ficticious team member one', 'cashflow' ); ?>" style="aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap","justifyContent":"center"}} -->
@@ -39,8 +39,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"layout":{"type":"default"}} -->
-<div class="wp-block-column"><!-- wp:image {"id":2512,"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-style-rounded"><img src="https://demo.cashflowtheme.com/wp-content/uploads/2024/02/samuel-raita-RiDxDgHg7pw-unsplash-md.jpg" alt="" class="wp-image-2512" style="aspect-ratio:1;object-fit:cover"/></figure>
+<div class="wp-block-column"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
+<figure class="wp-block-image size-full is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() . '/patterns/images/samuel-raita-RiDxDgHg7pw-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Photo of ficticious team member two', 'cashflow' ); ?>" style="aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","flexWrap":"nowrap"}} -->
@@ -55,8 +55,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"layout":{"type":"default"}} -->
-<div class="wp-block-column"><!-- wp:image {"id":2500,"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-style-rounded"><img src="https://demo.cashflowtheme.com/wp-content/uploads/2024/02/alex-starnes-WYE2UhXsU1Y-unsplash-md.jpg" alt="" class="wp-image-2500" style="aspect-ratio:1;object-fit:cover"/></figure>
+<div class="wp-block-column"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
+<figure class="wp-block-image size-full is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() . '/patterns/images/alex-starnes-WYE2UhXsU1Y-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Photo of ficticious team member three', 'cashflow' ); ?>" style="aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","flexWrap":"nowrap"}} -->
@@ -71,8 +71,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"layout":{"type":"default"}} -->
-<div class="wp-block-column"><!-- wp:image {"id":2504,"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-style-rounded"><img src="https://demo.cashflowtheme.com/wp-content/uploads/2024/02/dylan-ferreira-jIM8kVsFKlM-unsplash-md.jpg" alt="" class="wp-image-2504" style="aspect-ratio:1;object-fit:cover"/></figure>
+<div class="wp-block-column"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
+<figure class="wp-block-image size-full is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() . '/patterns/images/dylan-ferreira-jIM8kVsFKlM-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Photo of ficticious team member four', 'cashflow' ); ?>" style="aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap","justifyContent":"center"}} -->
