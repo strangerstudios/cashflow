@@ -9,6 +9,34 @@
  * @since Cashflow 1.0
  */
 
+ if ( ! function_exists( 'cashflow_setup' ) ) {
+
+	/**
+	 * Initialize theme defaults and register support for WordPress features.
+	 */
+	function cashflow_setup() {
+
+		// Enqueue editor style sheet.
+		add_editor_style( get_template_directory_uri() . '/style.css' );
+
+		// Remove core block patterns support.
+		remove_theme_support( 'core-block-patterns' );
+
+	}
+}
+add_action( 'after_setup_theme', 'cashflow_setup' );
+
+/**
+ * Enqueue theme styles and scripts.
+ */
+function cashflow_enqueue_styles_scripts() {
+
+	// Enqueue theme style sheet.
+	wp_enqueue_style( 'cashflow', get_template_directory_uri() . '/style.css', array(), wp_get_theme( 'cashflow' )->get( 'Version' ) );
+
+}
+add_action( 'wp_enqueue_scripts', 'cashflow_enqueue_styles_scripts' );
+
 /**
  * Add block style variations.
  */

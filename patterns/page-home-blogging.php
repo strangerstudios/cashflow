@@ -5,6 +5,7 @@
  * Categories: page
  * Keywords: page, starter
  * Post Types: page, wp_template
+ * Inserter: no
  */
 ?>
 

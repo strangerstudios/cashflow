@@ -1,7 +1,6 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.4/theme.json",
 	"version": 2,
-	"patterns": [],
 	"settings": {
 		"appearanceTools": true,
 		"border": {
@@ -414,6 +413,18 @@
 		"css": "",
 		"elements": {
 			"button": {
+				":active": {
+				},
+				":focus": {
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--contrast-2)",
+						"text": "var(--wp--preset--color--base)"
+					},
+					"border": {
+					}
+				},
 				"border": {
 					"radius": "var(--wp--custom--border-radius--default)"
 				},
