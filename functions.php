@@ -9,6 +9,7 @@
  * @since Cashflow 1.0
  */
 
+ /* Initial theme setup of styling and turns off core block patterns in browser */
  if ( ! function_exists( 'cashflow_setup' ) ) {
 
 	/**
@@ -19,7 +20,7 @@
 		// Enqueue editor style sheet.
 		add_editor_style( get_template_directory_uri() . '/style.css' );
 
-		// Remove core block patterns support.
+		// Remove core block patterns support, comment out to bring back support in theme.
 		remove_theme_support( 'core-block-patterns' );
 
 	}
@@ -27,7 +28,7 @@
 add_action( 'after_setup_theme', 'cashflow_setup' );
 
 /**
- * Enqueue theme styles and scripts.
+ * Enqueue theme styles and scripts for the theme specifically in style.css file.
  */
 function cashflow_enqueue_styles_scripts() {
 
@@ -38,7 +39,7 @@ function cashflow_enqueue_styles_scripts() {
 add_action( 'wp_enqueue_scripts', 'cashflow_enqueue_styles_scripts' );
 
 /**
- * Add block style variations.
+ * Adds block style variations that the theme supports.
  */
 if ( ! function_exists( 'cashflow_block_styles' ) ) :
 	function cashflow_block_styles() {
@@ -194,7 +195,7 @@ endif;
 add_action( 'init', 'cashflow_block_styles' );
 
 /**
- * Register block pattern categories.
+ * Register block pattern categories for this theme that are unique.
  */
 function cashflow_register_pattern_categories() {
 
@@ -217,30 +218,10 @@ function cashflow_register_pattern_categories() {
 add_action( 'init', 'cashflow_register_pattern_categories' );
 
 /**
- * Compatibility.
+ * Compatibility for Paid Memberships Pro Plugin. Only loads if the plugin is active and if not will simply return nothing.
+ * This loads styles specific for the plugin and those can be found in assets/css/paid-memberships-pro.css
  */
 require_once get_parent_theme_file_path( 'inc/compatibility/paid-memberships-pro.php' );
-
-/**
- * Enqueue block stylesheets.
- */
-/******** Adding this in 'if' needed to load per block 
- if ( ! function_exists( 'cashflow_block_stylesheets' ) ) :
-
-	function cashflow_block_stylesheets() {
-		wp_enqueue_block_style(
-			'core/button',
-			array(
-				'handle' => 'cashflow-button-style-outline',
-				'src'    => get_parent_theme_file_uri( 'assets/css/block-styles.css' ),
-				'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-				'path'   => get_parent_theme_file_path( 'assets/css/block-styles.css' ),
-			)
-		);
-	}
-endif;
-
-add_action( 'init', 'cashflow_block_stylesheets' );*/
 
 /**
  * Fallback to the Cashflow icon if not set.

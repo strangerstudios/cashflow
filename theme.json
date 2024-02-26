@@ -314,6 +314,9 @@
 					"lineHeight": "1.6"
 				}
 			},
+			"core/post-comments-form": {
+				"css": "& textarea, input{border-radius:var(--wp--custom--border-radius--default)}"
+			},
 			"core/gallery": {
 				"spacing": {
 					"margin": {
@@ -376,6 +379,9 @@
 					}
 				}
 			},
+			"core/search": {
+				"css": "& .wp-block-search__input{border-radius:var(--wp--custom--border-radius--default)}"
+			},
 			"core/separator": {
 				"border": {
 					"color": "var(--wp--preset--color--contrast-4)",
@@ -410,7 +416,6 @@
 			"background": "var(--wp--preset--color--base-2)",
 			"text": "var(--wp--preset--color--contrast-2)"
 		},
-		"css": "",
 		"elements": {
 			"button": {
 				":active": {
