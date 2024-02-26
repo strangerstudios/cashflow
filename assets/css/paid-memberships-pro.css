@@ -7,7 +7,8 @@
  */
 form.pmpro_form input:where( :not( [type=checkbox] ):not( [type=radio ] ):not( [type=submit ] ):not( [type=button ] ) ),
 form.pmpro_form select,
-form.pmpro_form textarea {
+form.pmpro_form textarea,
+#loginform input:where( :not( [type=checkbox] ):not( [type=radio ] ):not( [type=submit ] ):not( [type=button ] ) ) {
 	color: var( --wp--custom--form-input--color, inherit );
 	background: var( --wp--custom--form-input--background, transparent );
 	border: 1px solid var( --wp--custom--form-input--border-color, currentColor );
@@ -17,7 +18,8 @@ form.pmpro_form textarea {
 }
 
 form.pmpro_form input:where( :not( [type=checkbox] ):not( [type=radio ] ):not( [type=submit ] ):not( [type=button ] ) ),
-form.pmpro_form textarea {
+form.pmpro_form textarea,
+#loginform input:where( :not( [type=checkbox] ):not( [type=radio ] ):not( [type=submit ] ):not( [type=button ] ) ) {
 	min-width: 90%;
 }
 
