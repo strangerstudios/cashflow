@@ -30,7 +30,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-image-organic-alt"} -->
-<figure class="wp-block-image size-full is-style-image-organic-alt"><img src="<?php echo esc_url( get_template_directory_uri() . '/patterns/images/ian-schneider-TamMbr4okv4-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Looking down to a cement tiled walkway with the words \'Passion Led Us Here\' and two pairs of feet', 'cashflow' ); ?>"/></figure>
+<figure class="wp-block-image size-full is-style-image-organic-alt"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/ian-schneider-TamMbr4okv4-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Looking down to a cement tiled walkway with the words \'Passion Led Us Here\' and two pairs of feet', 'cashflow' ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"40px"} -->

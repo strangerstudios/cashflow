@@ -25,7 +25,7 @@
 <!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"right":"0","left":"0"},"blockGap":{"top":"var:preset|spacing|70","left":"var:preset|spacing|70"}}}} -->
 <div class="wp-block-columns alignwide" style="padding-right:0;padding-left:0"><!-- wp:column {"layout":{"type":"default"}} -->
 <div class="wp-block-column"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() . '/patterns/images/constantin-panagopoulos-9lf_erPHYG0-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Photo of ficticious team member one', 'cashflow' ); ?>" style="aspect-ratio:1;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/constantin-panagopoulos-9lf_erPHYG0-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Photo of ficticious team member one', 'cashflow' ); ?>" style="aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap","justifyContent":"center"}} -->
@@ -41,7 +41,7 @@
 
 <!-- wp:column {"layout":{"type":"default"}} -->
 <div class="wp-block-column"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() . '/patterns/images/samuel-raita-RiDxDgHg7pw-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Photo of ficticious team member two', 'cashflow' ); ?>" style="aspect-ratio:1;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/samuel-raita-RiDxDgHg7pw-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Photo of ficticious team member two', 'cashflow' ); ?>" style="aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","flexWrap":"nowrap"}} -->
@@ -57,7 +57,7 @@
 
 <!-- wp:column {"layout":{"type":"default"}} -->
 <div class="wp-block-column"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() . '/patterns/images/alex-starnes-WYE2UhXsU1Y-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Photo of ficticious team member three', 'cashflow' ); ?>" style="aspect-ratio:1;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/alex-starnes-WYE2UhXsU1Y-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Photo of ficticious team member three', 'cashflow' ); ?>" style="aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","flexWrap":"nowrap"}} -->
@@ -73,7 +73,7 @@
 
 <!-- wp:column {"layout":{"type":"default"}} -->
 <div class="wp-block-column"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() . '/patterns/images/dylan-ferreira-jIM8kVsFKlM-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Photo of ficticious team member four', 'cashflow' ); ?>" style="aspect-ratio:1;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/dylan-ferreira-jIM8kVsFKlM-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Photo of ficticious team member four', 'cashflow' ); ?>" style="aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|0"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap","justifyContent":"center"}} -->

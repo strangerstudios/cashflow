@@ -45,7 +45,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-image-organic"} -->
-<figure class="wp-block-image size-full is-style-image-organic"><img src="<?php echo esc_url( get_template_directory_uri() . '/patterns/images/constantin-panagopoulos-9lf_erPHYG0-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Sample image for text with image pattern', 'cashflow' ); ?>" /></figure>
+<figure class="wp-block-image size-full is-style-image-organic"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/constantin-panagopoulos-9lf_erPHYG0-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Sample image for text with image pattern', 'cashflow' ); ?>" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"large","fontFamily":"heading"} -->

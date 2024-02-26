@@ -15,7 +15,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-image-organic"} -->
-<figure class="wp-block-image size-full is-style-image-organic"><img src="<?php echo esc_url( get_template_directory_uri() . '/patterns/images/linkedin-sales-solutions-NpyF7rjqmq4-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Woman with long hair, wearing a blazer, and leaning against a wall with in a classroom setting', 'cashflow' ); ?>"/></figure>
+<figure class="wp-block-image size-full is-style-image-organic"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets//images/linkedin-sales-solutions-NpyF7rjqmq4-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Woman with long hair, wearing a blazer, and leaning against a wall with in a classroom setting', 'cashflow' ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"30px"} -->

@@ -36,7 +36,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"width":"auto","height":"100px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() . '/patterns/images/meg-wagener-M7fbJyBuAag-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Testimonial person photo', 'cashflow' ); ?>" style="aspect-ratio:1;object-fit:cover;width:auto;height:100px"/></figure>
+<figure class="wp-block-image size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/meg-wagener-M7fbJyBuAag-unsplash-md.jpg' ); ?>" alt="<?php esc_attr_e( 'Testimonial person photo', 'cashflow' ); ?>" style="aspect-ratio:1;object-fit:cover;width:auto;height:100px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
