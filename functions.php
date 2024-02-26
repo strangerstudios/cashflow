@@ -48,7 +48,7 @@ if ( ! function_exists( 'cashflow_block_styles' ) ) :
 				'inline_style' => '
 					.is-style-card-lift {
 						border-radius: var(--wp--preset--spacing--20);
-						box-shadow: var(--wp--preset--shadow--lift);
+						box-shadow: var(--wp--custom--shadow--lift);
 						overflow: hidden;
 					}
 				',
@@ -62,7 +62,7 @@ if ( ! function_exists( 'cashflow_block_styles' ) ) :
 				'inline_style' => '
 					.is-style-card-lift {
 						border-radius: var(--wp--preset--spacing--20);
-						box-shadow: var(--wp--preset--shadow--lift);
+						box-shadow: var(--wp--custom--shadow--lift);
 						overflow: hidden;
 					}
 				',
